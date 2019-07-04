@@ -1,0 +1,399 @@
+/***  Start My FrameWork  ***/
+
+.bg-color {background-color: #00bfa5}
+
+.txt-center {text-align: center}
+
+.ft-lt {float: left}
+
+.ft-rt {float: right}
+
+.white {color: white}
+
+.t-upper {text-transform: uppercase}
+
+.hidden {display: none}
+
+/***  End  My FrameWork  ***/
+
+
+
+/*** Start Global Styles  ***/
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {font-family: Arial, Tahoma}
+
+.container {width: 70%;margin: auto}
+
+ul {list-style: none}
+
+:focus {outline: none}
+
+/*** End Global Styles  ***/
+
+
+
+/*** Start Header  ***/
+
+header {background: url(../images/header.jpg);background-size: cover;position: relative}
+
+header .overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .7);
+    padding: 30px 0
+}
+
+header .title {overflow: hidden}
+
+header .title h2 {margin: 0;font-size: 19px;font-weight: normal}
+
+header .title nav {width: 350px;font-size: 11px}
+
+header .title nav ul {margin: 0;width: 100%}
+
+header .title nav ul li {display: inline-block;margin-right: 24px;cursor: pointer}
+
+header .title nav ul li:last-of-type {margin: 0}
+
+header .title nav ul li:not(.active) {color: #a5a0a0}
+
+header .slide {margin: 22% 0 0}
+
+header .slide h1 {margin: 0;font-size: 34px}
+
+header .slide p {width: 61%}
+
+header .slide p:first-of-type {margin: 10px auto 0;font-size: 18px;color: #f7f7f7}
+
+header .slide p:last-of-type {margin: 22px auto;color: #cec9c9;line-height: 1.5}
+
+header .slide:not(.active) {display: none}
+
+header button {
+    width: 169px;
+    margin: 11px 5px;
+    background: transparent;
+    padding: 8px 15px;
+    outline: none;
+    border: 2px solid #FFF;
+    border-radius: 21px;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out
+}
+
+header button:hover {border-color: #00bfa5;background-color: #00bfa5}
+
+header i {
+    position: absolute;
+    top: 54%;
+    font-size: 24px;
+    width: 28px;
+    cursor: pointer
+}
+
+header i.fa-arrow-right {right: 20px}
+
+header i.fa-arrow-left {left: 20px}
+
+/*** End Header   ***/
+
+
+/*** Start Features ***/
+
+.features .container {overflow: hidden}
+
+.features div.sections {width: 48%;margin: 70px 10px 30px 0;color: #585050}
+
+.features div.sections p {line-height: 1.5;color: #ababab}
+
+.features div.sections > h2 {margin: 0 2px;font-weight: normal;font-size: 32px}
+
+.features div.sections > p {margin: 20px 0 75px;font-size: 19px}
+
+.features div.sections .section {position: relative;margin: 35px 0;color: #888585}
+
+.features div.sections .section i {
+    position: absolute;
+    color: #00bfa5;
+    font-size: 18px;
+    cursor: pointer;
+    transition: all ease-in-out 0.2s
+}
+
+.features div.sections .section h3 {margin: 0 0 0 30px;font-weight: normal;font-size: 16px}
+
+.features div.sections .section p {margin: 6px 0 0 30px;font-size: 13px}
+
+.features div.sections .section.active i {background: #00bfa5}
+
+.features div.sections .section.active h3,
+.features div.sections .section.active p {color: #585050}
+
+.features div.mokeup {width: 36%;margin: 56px 0 0 7%;position: relative}
+
+.features div.mokeup img:first-of-type {width: 100%;height: 100%}
+
+.features div.mokeup img:last-of-type {
+    position: absolute;
+    width: 93.8%;
+    height: 87.3%;
+    top: 53px;
+    left: 12px
+}
+
+.features .mokeup .overlay {
+    position: absolute;
+    width: 94.8%;
+    height: 88.3%;
+    top: 52px;
+    left: 11px;
+    background: rgba(0, 0, 0, .7);
+    padding: 0 5px
+}
+
+.features .mokeup .overlay i {font-size: 5px}
+
+.features .mokeup .overlay span {font-size: 11px}
+
+.features .mokeup .overlay i.fa-circle {width: 2px}
+
+
+.features .mokeup .overlay span:first-of-type {margin: 1px}
+
+.features .mokeup .overlay i.fa-wifi {font-size: 11px;margin-right: 57px}
+
+.features .mokeup .overlay i.fa-bluetooth-b {font-size: 11px;margin-left: 64px;color: #929090}
+
+
+.features .mokeup .overlay i.fa-battery-full {font-size: 11px}
+
+.features .mokeup .overlay .head h1 {
+    font-size: 38px;
+    margin-top: 122px;
+    transform: rotate(-16deg) skew(-26deg);
+    line-height: 0.9
+}
+
+.features .mokeup .overlay .head p:first-of-type {margin: 180px 0 0}
+
+.features .mokeup .overlay .head p:last-of-type {margin: 7px;font-size: 31px;letter-spacing: 2px}
+
+/*** End  Features ***/
+
+
+
+/*** Start Video  ***/
+
+div.video {background: #e5eaed;padding: 70px 0}
+
+div.video .container {position: relative}
+
+div.video .container img {width: 100%}
+
+div.video .container i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: white;
+    border: 0 solid #000;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, .7);
+    cursor: pointer;
+    margin-top: -25px;
+    margin-left: -25px
+}
+
+/*** End  Video  ***/
+
+
+/*** Start Rates  ***/
+
+.rates {background: #edf2f5;color: #585050}
+
+.rates .container {overflow: hidden}
+
+.rates h1 {margin: 57px 0 20px;font-weight: normal;font-size: 37px}
+
+.rates section.rate {
+    width: 31.66666%;
+    height: 302px;
+    padding: 10px 0;
+    margin-right: 2.5%;
+    margin-bottom: 20px;
+    background-color: white;
+    padding-top: 87px
+}
+
+.rates section.rate:nth-of-type(3n) {margin-right: 0}
+
+.rates section.rate img {width: 32%;height: 32%}
+
+.rates section.rate h2 {font-weight: normal;font-size: 19px;margin-bottom: 4px}
+
+.rates section.rate span {color: #ababab}
+
+
+.rates button {
+    width: 169px;
+    margin: 20px 0 57px;
+    background: #00bfa5;
+    padding: 10px 15px;
+    outline: none;
+    border: 2px solid #00bfa5;
+    border-radius: 21px;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: bold
+}
+
+/*** End  Rates  ***/
+
+
+
+/*** Start Reviews ***/
+
+.reviews {color: #585050}
+
+.reviews .container {overflow: hidden}
+
+.reviews h1 {margin: 57px 0 35px;font-weight: normal;font-size: 33px}
+
+.reviews .review {width: 30%;margin-right: 5%;margin-bottom: 20px}
+
+.reviews .review:last-of-type {margin-right: 0}
+
+.reviews .review h3 {
+    color: #6b6a6a;
+    font-weight: normal;
+    font-size: 15px;
+    margin: 0 0 10px
+}
+
+.reviews .review span {font-weight: bold;font-size: 14px}
+
+.reviews .review div.stars {padding: 6px 0}
+
+
+.reviews .review div.stars i {color: #00bfa5}
+
+.reviews .review:first-of-type div.stars i:last-of-type {color: #afabab}
+
+.reviews .review p {
+    color: #ababab;
+    font-size: 10px;
+    line-height: 1.5;
+    margin-bottom: 40px
+}
+
+/*** End  Reviews  ***/
+
+
+
+/*** Start Benefit ***/
+
+.ben .container {overflow: hidden}
+
+.ben h1 {margin: 57px 0 20px;font-weight: normal;font-size: 32px}
+
+.ben p {line-height: 1.4;color: #f5f4f4}
+
+.ben div.images {overflow: hidden;margin: 50px 0}
+
+.ben div.images img {width: 15%;cursor: pointer}
+
+.ben div.images img:first-of-type {margin-right: 2%}
+
+
+/*** End Benefit ***/
+
+
+
+/***    Start contact   ***/
+
+.contact {background: #edf2f5;color: #585050}
+
+.contact .container {overflow: hidden}
+
+.contact h1 {margin: 57px 0 9px;font-weight: normal;font-size: 32px}
+
+.contact P {
+    color: #ababab;
+    font-size: 12px;
+    line-height: 1.5;
+    margin-bottom: 15px
+}
+
+.contact form {width: 36%;margin: auto}
+
+.contact form input,
+.contact form textarea {
+    width: 100%;
+    margin-bottom: 14px;
+    padding: 14px 10px;
+    border: 0 solid rgba(0, 0, 0, .7);
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, .2);
+    border-radius: 5px
+}
+
+.contact form textarea {height: 145px;resize: none}
+
+.contact form input[type="submit"] {
+    margin: 0px 0 36px;
+    background: #00bfa5;
+    outline: none;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    color: white
+}
+
+.contact form ::-webkit-input-placeholder {font-size: 13px;color: #ababab}
+
+.contact form ::-moz-input-placeholder {font-size: 13px;color: #ababab}
+
+.contact form :-moz-input-placeholder {font-size: 13px;color: #ababab}
+
+.contact form ::-o-input-placeholder {font-size: 13px;color: #ababab}
+
+.contact .follow {margin: 0 0 30px}
+
+.contact .follow span {color: #ababab;font-size: 13px}
+
+.contact .follow div.socials {margin: 18px 0}
+
+.contact .follow div.socials i {
+    color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #bfbebe;
+    line-height: 30px;
+    font-size: 17px;
+    cursor: pointer;
+    margin-right: 5px;
+    transition: all 0.3s ease-in-out
+}
+
+.contact .follow div.socials i:last-of-type {margin: 0}
+
+.contact .follow div.socials i:first-of-type:hover {background-color: #3b5998}
+
+.contact .follow div.socials i:nth-of-type(2):hover {background-color: #fd1d1d}
+
+.contact .follow div.socials i:nth-of-type(3):hover {background-color: #1da1f2}
+
+.contact .follow div.socials i:last-of-type:hover {background-color: #0077b5}
+
+/***    End  contact   ***/
